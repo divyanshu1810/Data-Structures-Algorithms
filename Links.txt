@@ -1,4 +1,8 @@
 Big-O Notations:
 https://en.wikipedia.org/wiki/Big_O_notation#/media/File:Comparison_computational_complexity.svg
+
 Sorting:
 https://en.wikipedia.org/wiki/Shellsort
+
+Recursion:
+https://www.drdobbs.com/jvm/tail-call-optimization-and-java/240167044
