@@ -234,6 +234,23 @@ public class LL {
         }
     }
 
+    // To Swap Nodes from Beginning and from end
+
+    public ListNode swapNodes(ListNode head, int k) {
+        ListNode current = head, KthNodeFromStart, KthNodeFromEnd = head;
+        for (int i=0; i<k-1; i++)
+            current = current.next;     // find kth Node
+        KthNodeFromStart = current;
+        while(current.next != null) {
+            KthNodeFromEnd = KthNodeFromEnd.next;   // find kth Node from end
+            current = current.next;
+        }
+        int temp = KthNodeFromStart.val;    // Swap values
+        KthNodeFromStart.val = KthNodeFromEnd.val;
+        KthNodeFromEnd.val = temp;
+        return head;
+    }
+
     // recursion reverse
     private void reverse(Node node) {
         if (node == tail) {
@@ -246,8 +263,12 @@ public class LL {
         tail.next = null;
     }
 
+
+
     // in place reversal of linked list
     // google, microsoft, apple, amazon: https://leetcode.com/problems/reverse-linked-list/
+
+
     public void reverse() {
         if (size < 2) {
             return;

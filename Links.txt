@@ -11,3 +11,9 @@ Linked List:
 https://docs.oracle.com/javase/9/docs/api/java/util/List.html
 https://docs.oracle.com/javase/9/docs/api/java/util/ArrayList.html
 https://docs.oracle.com/javase/9/docs/api/java/util/Vector.html
+
+Sets:
+https://docs.oracle.com/javase/9/docs/api/java/util/TreeSet.html
+https://docs.oracle.com/javase/9/docs/api/java/util/LinkedHashSet.html
+https://docs.oracle.com/javase/9/docs/api/java/util/HashSet.html
+https://docs.oracle.com/javase/9/docs/api/java/util/Set.html
